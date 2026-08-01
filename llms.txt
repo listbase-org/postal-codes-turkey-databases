@@ -1,0 +1,34 @@
+# Turkey Postal Codes Database (Türkiye Posta Kodları)
+
+> Türkiye posta kodları veritabanı. 81 il, 2,771 posta kodu. Turkey postal codes for all 81 provinces with district names.
+
+This repository contains a database of turkey postal codes database (türkiye posta kodları) covering 1 datasets with 2,771 records.
+
+## Available Formats
+
+- SQLite database (.db) — ready to query
+- SQL dump (.sql) — import into MySQL, PostgreSQL, MariaDB, etc.
+- Excel, CSV, PDF — available at https://listbase.org
+
+## Data Structure
+
+Table: `postal_codes`
+- `postal_code` (TEXT NOT NULL)
+- `city_code` (TEXT)
+- `city_name` (TEXT NOT NULL)
+- `district_name` (TEXT)
+- `neighbourhood_count` (INTEGER)
+
+## Download
+
+- GitHub Releases: https://github.com/listbase-org/postal-codes-turkey-databases/releases
+- Excel/CSV/PDF: https://listbase.org/tr/geography/
+
+## License
+
+MIT — Free to use for any purpose.
+
+## About
+
+Maintained by ListBase.org — Free Reference Tables & Lists
+Website: https://listbase.org
